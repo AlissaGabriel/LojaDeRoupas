@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilos.css/cadastro.css">
+</head>
+
+<body>
+    <div id="corpo">
+        <header>
+            <h1>Bem vindo(a) a nossa loja</h1>
+        </header>
+        <main>
+            <h2>Faça seu cadastro</h2>
+            <form action="outrapagina.html" method="GET">
+                <fieldset>
+                    <h1> Dados Pessoais </h1>
+                    <label>Nome
+                        <input type="text" name="txtnome" placeholder="Digite seu nome" required>
+                    </label>
+                    <label class="modificado">E-mail
+                        <input type="email" name="txtemail" placeholder="Digite seu melhor email" required>
+                    </label>
+                    <label class="modificado">Telefone
+                        <input type="number" name="txtnome" placeholder="Digite seu telefone" required>
+                    </label>
+                    <label class="modificado">CPF
+                        <input type="text" name="txtcpf" placeholder="Digite seu CPF" required>
+                    </label>
+                    <label class="modificado">Data de Nascimento
+                        <input type="date" name="txtdata" placeholder="Digite sua Data de Nascimento" required>
+                    </label>
+                    <label class="modificado">RG
+                        <input type="text" name="txtrg" placeholder="Digite seu RG" required>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <h1> Endereço</h1>
+                    <label class="modificado">CEP
+                        <input type="text" name="txtcep" placeholder="Digite seu CEP" required>
+                    </label>
+                    <label class="modificado">Rua
+                        <input type="text" name="txtrua" placeholder="Digite sua Rua" required>
+                    </label>
+                    <label class="modificado">Bairro
+                        <input type="text" name="txtbairro" placeholder="Digite o seu Bairro" required>
+                    </label>
+                    <label class="modificado">Cidade
+                        <input type="text" name="txtcidade" placeholder="Digite sua Cidade" required>
+                    </label>
+                    <label>Número
+                        <input type="number" name="txtnumero" placeholder="Digite o número da sua casa" required>
+                    </label>
+                    <label>Estado
+                        <select>
+                            <option value="">Selecione</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="MG">Minas Gerais</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <p class="botao">
+                    <button type="submit" class="enviar">Enviar</button>
+                    <button type="reset" class="resetar">Limpar</button>
+                </p>
+            </form>
+        </main>
+        <footer>
+            <address>Rua Aleatória - 183
+                <abbr title="São Paulo">SP</abbr>
+                <br>
+                Contato: (00) 0000-0000
+            </address>
+        </footer>
+    </div>
+</body>
+
+</html>

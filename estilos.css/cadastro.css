@@ -1,0 +1,79 @@
+label, input, select{
+    display: block;
+    box-sizing: border-box;
+}
+
+.modificado{
+    float: left;
+    width: 50%;
+}
+
+input, select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px whitesmoke;
+}
+
+
+
+label{
+    padding: 5px;
+}
+
+fieldset{
+    padding: 10px;
+    background-color: rgb(227, 239, 240);
+    width: 50%;
+    margin-left: 400px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+h1, h2{
+    text-align: center;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family:monospace;
+}
+
+footer{
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+}
+
+input:hover{
+    background-color: whitesmoke;
+    cursor:pointer;
+}
+
+.enviar{
+    background-color: #52ee7c;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.botao{
+    text-align: center;
+    padding: 20px;
+}
+
+.resetar{
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button{
+    background-color: #eee;
+    border: 1px solid #666;
+}
+
+button:hover{background-color: rgba(199, 241, 136, 0.76);}
+button.active{background-color: #666;}
+

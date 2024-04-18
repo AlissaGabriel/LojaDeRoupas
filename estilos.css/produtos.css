@@ -1,0 +1,48 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    
+}
+
+table, td, th{
+    border: 1px solid black;
+}
+
+.zebra{
+    background-color: rgb(227, 239, 240);
+}
+
+h1{
+    text-align: center;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family:monospace;
+}
+
+main{
+    padding: 20px;
+}
+
+footer{
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+}
+
+table tbody td{
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+table tbody tr:hover{
+    background-color: whitesmoke;
+    cursor:pointer;
+}
+
+ th{
+    font-size: 20px;
+    font-family: monospace;
+}
+

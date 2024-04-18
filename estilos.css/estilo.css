@@ -1,0 +1,66 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: monospace;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.inicio {
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+}
+
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li a:hover {
+    color: rgb(65, 54, 65);
+}
+
+.menu li {
+    padding-left: 30px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+article, aside{
+    width: 42%;
+    margin-left: 500px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+figure{
+    float: left;
+    padding: 5px;
+    max-width: 300px;
+    text-align: center;
+    margin-left: 170px;
+    border-radius: 2px;
+}
+
+footer{
+   margin-top: 400px;
+   text-align: center;
+}
+
+figcaption{
+    font-family: monospace;
+}
+
+img{
+    border-radius: 20px;
+}
+
+body{
+    background-color: whitesmoke;
+}
